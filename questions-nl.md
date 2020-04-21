@@ -92,10 +92,15 @@ We willen een open community op schaal faciliteren, inclusief samenwerking op ee
 #### Vragen
 
 1. Hoe zou u dit principe willen opnemen in contracten die gemeenten met u afsluiten?
+Antwoord: ik zou wel forks willen toestaan, maar dat die dan periodiek worden gemerged op voordracht van het OpenZaak governance model
 2. Hoe stelt u voor om 'soft forks' up-to-date te houden van elkaar? Moet er een centrale repository zijn die als master kan worden beschouwd?
+Antwoord: nee, laten groeien en je ziet vanzelf welke standaard ontstaat die de meeste aanhang heeft, eventueel kan je generieke delen afsplitsen en nieuwe master repo's van maken
 3. Welke uitdagingen zijn er voor u om in zo'n multi-branch omgeving te werken? Hoe kunnen deze uitdagingen worden beperkt om de bedrijfsrisico's voor u te verminderen?
+Antwoord: geen risico, je kan meetups organiseren om up-to-date te blijven. Zodra je dit te strak gaat regelen bloedt het dood
 4. Heeft u ooit eerder op deze manier gewerkt?
+Antwoord: nee, maar wij doen veel pilots waarin we diverse branches van open source projecten raadplegen en we doen daar aan cherry picking
 5. Is de [huidige architectuur en make-up van de codebase](https://github.com/open-zaak/open-zaak) bevorderlijk voor multi-vendor samenwerking en modulaire implementatie van componenten?
+Antwoord: ja, het ziet er modulair genoeg uit, maar er is altijd ruimte voor verbetering richting nog kleinere repo's voor function as a service implementaties
 
 ### 2. Shared codebase governance
 
@@ -108,11 +113,17 @@ Deze marktconsultatie omvat een [ontwerpvoorstel van een governancestructuur](GO
 #### Vragen
 
 1. Hoe vindt u dat governance moet worden georganiseerd binnen de community?
+Antwoord: er zullen toch een aantal community managers moeten zijn die niet perse de bulk van het codewerk doen
 2. Wat zijn de uitdagingen die u voorziet bij het onderhouden van open backlogs bij uw klanten?
+Antwoord: daar moet een innoavtief marktmechanisme voor worden toegepast, we hebben daar enige ervaring mee
 3. Wie moet verantwoordelijk zijn voor het bijwerken van de shared roadmap? U, de gemeenten, of een gedeelde verantwoordelijkheid?
+Antwoord: gedeelde verantwoordelijkheid
 4. Hoe wilt u de gedeelde feature en technical roadmap kunnen beïnvloeden?
+Antwoord: decentraal via stemrondes en 'codegewicht' 
 5. Hoe wilt u dat de community omgaat met het ontwikkelen, eens worden over en onderhouden van gedeelde engineering en contributing guidelines?
+Antwoord: hier ook weer, marktmechanisme moet daar geld voor beschikbaar stellen, iedereen moet inleggen (tijd) en gemeenten moeten ook bijdragen (geld)
 6. Welke risico’s ziet u in het werken in zo'n omgeving?
+Antwoord: free riders
 
 ### 3. Bugs en bug fixes
 
@@ -123,9 +134,13 @@ Er zal een centrale, openbare en geprioriteerde issue tracker zijn voor features
 #### Vragen
 
 1. Moet het werken op zowel lokale implementaties en de centrale repository worden opgenomen in de zelfde of aparte contracten?
+Antwoord: dezelfde
 2. Hoe wilt u dat de contracten zo gestructureerd zijn dat u kunt werken aan lokale implementaties en branches en ook kunt bijdragen aan de centrale repository?
+Antwoord: percentages tijdbesteding afspreken
 3. Hoe moeten bugfixes in de hele community worden geïmplementeerd? Kunnen leveranciers hotfixes van andere leveranciers overnemen voordat deze zijn samengevoegd in de centrale repository? Of moeten leveranciers pas wijzigingen doorvoeren nadat ze zijn samengevoegd in de centrale repository?
+Antwoord: Ja; nee
 4. Wat voor soort aansprakelijkheidsvraagstukken zouden er kunnen zijn indien ‘hot fixing’ onverwachte schade of verdere problemen oplevert? Levert dit een probleem op voor uw contractuele verplichtingen aan uw klant?
+Antwoord: bedrijfsrisico, altijd zelf een hotfix checken
 
 ### 4. Helpdesk en support
 
@@ -136,7 +151,9 @@ Veel gemeenten zullen de voorkeur geven aan één enkele leverancier die ze kunn
 #### Vragen
 
 1. Is het mogelijk om één helpdesk op te zetten voor alles wat te maken heeft met het gebruik van OpenZaak door een gemeente? Of zijn er voordelen voor verschillende leveranciers die verschillende helpdesks onderhouden voor verschillende soorten vragen (bijvoorbeeld om hen in staat te stellen hun serviceaanbod te differentiëren?)
+Antwoord: ja, centrale helpdesk bij VNG-R, daarna dispatchen naar percelen waarop kan worden ingetekend door leveranciers
 2. Kunnen meerdere marktpartijen zich verenigen om hun aanbod te combineren?
+Antwoord:
 3. Kunnen gespecialiseerde 'helpdeskaanbieders' werk uitbesteden aan andere aanbieders?
 
 ### 5. Standards compliance
